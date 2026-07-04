@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alt Trader</title>
+
+  <!-- TikTok Pixel Base Code — Replace YOUR_PIXEL_ID with your actual Pixel ID -->
+  <script>
+    !function (w, d, t) {
+      w.TiktokAnalyticsObject = t;
+      var ttq = w[t] = w[t] || [];
+      ttq.methods = ["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"];
+      ttq.setAndDefer = function (t, e) { t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } };
+      for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(ttq, ttq.methods[i]);
+      ttq.instance = function (t) {
+        for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++) ttq.setAndDefer(e, ttq.methods[n]);
+        return e
+      };
+      ttq.load = function (e, n) {
+        var r = "https://analytics.tiktok.com/i18n/pixel/events.js",
+          o = n && n.partner;
+        ttq._i = ttq._i || {};
+        ttq._i[e] = [];
+        ttq._i[e]._u = r;
+        ttq._t = ttq._t || {};
+        ttq._t[e] = +new Date;
+        ttq._o = ttq._o || {};
+        ttq._o[e] = n || {};
+        n = document.createElement("script");
+        n.type = "text/javascript";
+        n.async = !0;
+        n.src = r + "?sdkid=" + e + "&lib=" + t;
+        e = document.getElementsByTagName("script")[0];
+        e.parentNode.insertBefore(n, e)
+      };
+      ttq.load('YOUR_PIXEL_ID'); // 👈 Replace YOUR_PIXEL_ID with your actual TikTok Pixel ID
+      ttq.page();
+    }(window, document, 'ttq');
+  </script>
+  <!-- End TikTok Pixel Base Code -->
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', 'Segoe UI', sans-serif;
+      background-color: #000000;
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 20px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      max-width: 420px;
+      width: 100%;
+    }
+
+    .banner {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 16px;
+      margin-bottom: 28px;
+      display: block;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 800;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      color: #ffffff;
+    }
+
+    .channel-label {
+      font-size: 1rem;
+      color: #aaaaaa;
+      margin-bottom: 10px;
+      font-weight: 400;
+    }
+
+    .members-count {
+      font-size: 0.95rem;
+      color: #cccccc;
+      margin-bottom: 24px;
+      font-weight: 500;
+    }
+
+    .instruction {
+      font-size: 0.95rem;
+      color: #cccccc;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    .instruction strong {
+      color: #ffffff;
+      font-weight: 700;
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      background-color: #25D366;
+      color: #ffffff;
+      font-size: 1.1rem;
+      font-weight: 700;
+      padding: 18px 40px;
+      border-radius: 50px;
+      text-decoration: none;
+      margin-bottom: 24px;
+      transition: background-color 0.2s ease, transform 0.1s ease;
+      width: 100%;
+      max-width: 320px;
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #1ebe5d;
+      transform: scale(1.02);
+    }
+
+    .urgency {
+      font-size: 0.9rem;
+      color: #ff4d4d;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .timer-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .timer-label {
+      font-size: 0.9rem;
+      color: #ff4d4d;
+      font-weight: 600;
+    }
+
+    .timer {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: #ff4d4d;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .social-proof {
+      font-size: 0.85rem;
+      color: #888888;
+      margin-bottom: 20px;
+    }
+
+    .disclaimer {
+      font-size: 0.75rem;
+      color: #555555;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <img
+      src="https://i.ibb.co/zh0GKzWg/VR8lrp-Sbi-Rtj-Pl36u-B34-Mfr-QA6-AZGg-Owe-n-F1-SPAq-Qe7u0-Btg-H1-Qxx-YJNa-CNkp-Qvuj-Ov-A5t-HNn3n-Nv-JK50p.jpg"
+      alt="Alt Trader Banner"
+      class="banner"
+    />
+
+    <h1>ALT TRADER</h1>
+    <p class="channel-label">Private Trading Channel</p>
+    <p class="members-count">8,421 members joined</p>
+
+    <p class="instruction">Tap below → then press <strong>Follow</strong> inside WhatsApp</p>
+
+    <a href="https://whatsapp.com/channel/YOUR_WHATSAPP_CHANNEL_LINK" class="whatsapp-btn">
+      Open WhatsApp Channel
+    </a>
+
+    <div class="timer-row">
+      <span class="timer-label">Limited access today &nbsp;·&nbsp; Closing in</span>
+      <span class="timer" id="countdown">04:59</span>
+    </div>
+
+    <p class="social-proof">+3,200 traders joined this week</p>
+    <p class="disclaimer">Educational only. Not financial advice.</p>
+
+  </div>
+
+  <script>
+    // Countdown Timer
+    let totalSeconds = 4 * 60 + 59;
+    const countdownEl = document.getElementById('countdown');
+
+    const tick = setInterval(() => {
+      if (totalSeconds <= 0) {
+        clearInterval(tick);
+        countdownEl.textContent = '00:00';
+        return;
+      }
+      totalSeconds--;
+      const m = Math.floor(totalSeconds / 60).toString().padStart(2, '0');
+      const s = (totalSeconds % 60).toString().padStart(2, '0');
+      countdownEl.textContent = `${m}:${s}`;
+    }, 1000);
+  </script>
+
+</body>
+</html>
